@@ -1,0 +1,86 @@
+name: gears_frontend
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.9.2 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.5.0
+  shared_preferences: ^2.2.2
+  google_fonts: ^6.1.0
+  flutter_svg: ^2.0.9
+  image_picker: ^1.2.0
+  permission_handler: ^12.0.1
+  another_flushbar: ^1.10.2
+  mask_text_input_formatter: ^2.4.0
+  elegant_notification: ^2.0.3
+  cupertino_icons: ^1.0.8
+  network_info_plus: ^7.0.0
+  device_info_plus: ^12.1.0
+  fl_chart: ^1.1.1
+  toastification: ^3.0.3
+  carousel_slider: ^5.1.1
+  intl: ^0.20.2
+  shimmer: ^3.0.0
+  cached_network_image: ^3.3.0
+  share_plus: ^7.2.1
+  gal: ^2.3.0
+  flutter_slidable: ^3.0.0
+  liquid_swipe: ^3.0.0
+  http_parser: ^4.1.2
+  flutter_quill: ^11.5.0
+  smooth_page_indicator: ^1.1.0
+  fluttertoast: ^9.0.0
+  supabase_flutter: ^2.5.5
+
+  video_player: ^2.8.2
+  url_launcher: ^6.3.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.1
+
+# --------------------------------------------------
+# FIXED LAUNCHER ICON SECTION (NO ORANGE BACKGROUND)
+# --------------------------------------------------
+flutter_launcher_icons:
+  android: true
+  ios: true
+
+  # Icon file
+  image_path: "assets/images/gears_logo.png"
+
+  # Android adaptive icon fix
+  android_adaptive_icon:
+    foreground: "assets/images/gears_logo.png"
+    background: "#FFFFFF"      # use "#00000000" for transparent
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/gears1_logo.png
+    - assets/images/gears_logo.png
+    - assets/images/paper_bg.png
+    - assets/images/sample_pic1.jpg
+    - assets/images/sample_pic2.jpg
+    - assets/images/sample_pic3.jpg
+    - assets/images/sample_pic4.jpg
+    - assets/images/sample_pic5.jpg
+    - assets/icons/home.svg
+    - assets/icons/profile.svg
+    - assets/icons/save.svg
+    - assets/icons/search.svg
+    - assets/icons/back.svg
+    - assets/icons/notification.svg
+    - assets/icons/users.svg
+    - assets/icons/articles.svg
+    - assets/icons/dashboard.svg
+    - assets/images/profile_placeholder.png
